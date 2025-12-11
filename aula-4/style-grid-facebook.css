@@ -28,6 +28,7 @@ main {
 }
 
 #header {
+    width: 100vh;
   grid-area: header;
   background-color: red;
 }
@@ -42,6 +43,4 @@ main {
 #content {
   grid-area: timeline;
   background-color: yellow;
-}
-#menu-right {
 }
