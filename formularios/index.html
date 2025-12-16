@@ -13,21 +13,22 @@
     <main>
         <h1>Formulário HTML - Tela de Login</h1>
         <form action="#" method="POST" id="form-login">
-            <label for="username">
-                Username
-            </label>
-            <input type="text" name="username" id="username" placeholder="Digite o seu usuário">
-            <label for="password">
-                Password
-            </label>
-            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+            <div class="input-wrapper">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Digite o seu usuário">
 
-            <button >Enviar</button>
-            <button type="reset">Limpar</button>
+            </div>
+            <div class="input-wrapper">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+            </div>
+            <div class="button-wrapper">
+                <button id="btn-submit">Enviar</button>
+                <button id="btn-reset" type="reset">Limpar</button>
+            </div>
         </form>
     </main>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
