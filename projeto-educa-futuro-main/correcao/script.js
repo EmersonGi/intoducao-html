@@ -1,0 +1,1 @@
+const tituloDaHome =  document.getElementById ('title-home').
